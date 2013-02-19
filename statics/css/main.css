@@ -59,6 +59,10 @@
 
 }
 
+#spirit_slide  img {
+    margin-left : 60px;
+}
+
 .contents {
     height: 300px;
     padding : 30px 10px 10px 10px;
