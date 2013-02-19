@@ -1,0 +1,105 @@
+{% extends 'base.djhtml' %}
+
+{% block title %} AURA SOFT {% endblock %}
+
+{% block active_menu %} "#menu_home"{% endblock %}
+
+{% block contents %}
+
+<div id="myCarousel" class="carousel slide">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="item" id="main_slide">
+      <div class="container">
+
+        <div id="main_slide_area" class="slide_area">
+          <h1> WE ARE AURASOFT </h1>
+          <h2> The most creative team in the world </h2>
+        </div>
+
+        <img src="{{STATIC_URL}}img/logo_big.png" alt="big logo"/>
+
+        <div class="cb">
+        </div>
+
+      </div>
+      
+    </div>
+
+
+    <div class="item" id="spirit_slide">
+      <div class="container">
+
+        <div id="spirit_slide_area" class="slide_area">
+          <h1> SpiritBingo </h1>
+          <h2> 정령들의 가호를! </h2>
+
+          <h3> 판타지세상에서 훌륭한 전사가되어 몹들로부터 마을을
+          지켜주세요 용사여. </h3>
+          
+          
+        </div>
+
+        <img src="{{STATIC_URL}}img/spiritbingo_tmp_small.png" alt="big logo"/>
+        <div class="cb">
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel"
+  data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel"
+  data-slide="next">&rsaquo;</a>
+</div>
+
+<div id="socialbar">
+  <div class="container">
+    <div class="fb-like" data-href="https://www.facebook.com/aurasoft1" data-send="true" data-width="450" data-show-faces="false"></div>    
+  </div>
+</div>
+
+<div class="container contents">
+  <div class="row">
+    <div class="span4">
+
+      <img src="{{STATIC_URL}}img/prince.png" />
+
+      <h2> 꿈  </h2>
+      <p> 우리의 꿈은 모두가 행복한 세상을 만드는 것 입니다.  </p>
+    </div>
+
+    <div class="span4">
+      <h2> 열정 </h2>
+      <p> 우리가 원하는 바는 저절로 얻어 지지 않습니다. 간절히
+      원하고 열정을 쏟을 때 비로소 얻울 수 있습니다.  </p>
+    </div>
+
+
+    <div class="span4">
+      <h2> 재미 </h2>
+      <p> 언제나 재미있게 일 할 수 있어야 합니다. 재미는 우리가
+      추구하는 가장 첫 번쨰 가치 입니다. </p>
+    </div>
+
+  </div>
+</div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=249104968445249";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+{% endblock %}

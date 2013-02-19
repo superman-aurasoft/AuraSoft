@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+     lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  
+    <title> {% block title %} AURA SOFT {% endblock %} </title>
+    
+    {% load compress %}
+ 
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+    
+    {% compress css %}
+
+    <link rel="stylesheet"
+    href="{{STATIC_URL}}css/bootstrap.min.css"
+    type="text/css" charset="utf-8"/>
+    <link rel="stylesheet"
+    href="{{STATIC_URL}}css/bootstrap-responsive.min.css"
+    type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/font.css"
+    type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/base.css"
+    type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/main.css"
+    type="text/css" charset="utf-8"/>
+
+    {% endcompress %}
+    
+    {% compress js %}
+
+    <script type="text/javascript"
+    src="{{STATIC_URL}}js/jquery-1.9.1.min.js"
+    charset="utf-8"> </script>
+    <script type="text/javascript"
+    src="{{STATIC_URL}}js/bootstrap.min.js" charset="utf-8"> </script>
+    <script type="text/coffeescript"
+    src="{{STATIC_URL}}coffee/base.coffee" charset="utf-8"> </script>
+    <script type="text/coffeescript"
+    src="{{STATIC_URL}}coffee/main.coffee" charset="utf-8"> </script>
+        
+    {% endcompress %}
+    
+  </head>
+  
+  <body>
+
+    <div class="body_inner">
+
+      <div id="menubar">
+        <div class="container">
+          <div class="row">
+            <ul id="main_menu">
+              <li id="logo" class="span2">
+                <a href="/"> <img src="{{STATIC_URL}}img/logo_white.png" alt="logo"/> </a>
+              </li>
+              
+              <li class="menu inactive span2" id="menu_home">
+                <a href="/"> HOME </a>
+              </li>
+
+              <li class="menu inactive span2" id="menu_product">
+                <a href="/product/"> PRODUCT </a>
+              </li>
+              
+              <li class="menu inactive span2" id="menu_members">
+                <a href="/members/"> MEMBERS </a>
+              </li>
+              
+              <li class="menu inactive span2" id="menu_contact">
+                <a href="/contact/"> CONTACT </a>
+              </li>
+
+              <li class="menu inactive span2" id="menu_joinus">
+                <a href="/joinus/"> JOIN US </a>
+              </li>
+              
+            </ul>
+            
+            <input type="hidden" name="active_menu" value=
+                   {% block active_menu %} ""{% endblock %} />
+          </div>
+        </div>
+      </div>
+
+      {% block contents %}
+      {% endblock %}
+
+      <div id="sizeholder">
+
+      </div>
+    </div>
+    
+    <div class="footer">
+      <div class="footer_inner">
+        <address>
+        (주) 아우라소프트 | 서울특별시 강남구 삼성2동 143-3 4층 | 대표
+        : 한만준 | 사업자등록번호:  <br/>
+        
+        전화: 02-566-7110 Fax: 02-566-7120 | 메일
+        : <a href="mailto:superman@aurasoft.co.kr">
+        superman@aurasoft.co.kr </a> <br/>
+
+        
+        <p> © 2013 (주) 아우라소프트. All rights reserved. </p>
+        </address>
+      </div>      
+    </div>
+
+  </body>
+</html>
