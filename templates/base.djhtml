@@ -27,6 +27,8 @@
     type="text/css" charset="utf-8"/>
     <link rel="stylesheet" href="{{STATIC_URL}}css/main.css"
     type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/contact.css"
+    type="text/css" charset="utf-8"/>
 
     {% endcompress %}
     
@@ -43,6 +45,11 @@
     src="{{STATIC_URL}}coffee/main.coffee" charset="utf-8"> </script>
         
     {% endcompress %}
+
+    {% block additional_script %}
+    
+
+    {% endblock %}
     
   </head>
   

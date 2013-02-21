@@ -2,10 +2,34 @@
 
 {% block active_menu %} "#menu_contact"{% endblock %}
 
+{% block additional_script %}
+
+<script type="text/javascript"
+        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=fcc60ce74de2b8e2581762a106b8b411"></script>
+<script type="text/javascript">
+  var oPoint = new nhn.api.map.LatLng(37.5069481, 127.0529865);
+  nhn.api.map.setDefaultPoint('LatLng');
+  oMap = new nhn.api.map.Map('map' ,{
+  point : oPoint,
+  zoom : 10,
+  enableWheelZoom : true,
+  enableDragPan : true,
+  enableDblClickZoom : false,
+  mapMode : 0,
+  activateTrafficMap : false,
+  activateBicycleMap : false,
+  minMaxLevel : [ 1, 14 ],
+  size : new nhn.api.map.Size(500, 400)
+  });
+</script>
+
+{% endblock %}
+
 {% block contents %}
 
 <div class="container">
-asdfsadf
+  <div id = "map"></div>
+  
 </div>
 
 {% endblock %}
