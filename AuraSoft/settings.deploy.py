@@ -4,7 +4,7 @@ import os
 
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 COMPRESS_ENABLED = True
 
@@ -169,3 +169,5 @@ COMPRESS_PRECOMPILERS = (
     ('text/x-sass', 'sass {infile} {outfile}'),
     ('text/x-scss', 'sass --scss {infile} {outfile}'),
 )
+
+NAVERMAPKEY = "3ee87a7c26db4ad0b52f7662086d206e"

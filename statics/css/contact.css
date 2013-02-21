@@ -1,5 +1,21 @@
-#map {
-    width: 500px;
+#mymap {
     height: 400px;
-    margin: 20px auto;
+    border: solid 2px #CCC;
+    margin-bottom: 30px;
+}
+
+#contact {
+    color:#555;
+    font-family: NanumGothicWeb;
+    padding-top: 20px;
+}
+
+#contact address {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+#contact h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
 }

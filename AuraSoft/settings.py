@@ -169,3 +169,5 @@ COMPRESS_PRECOMPILERS = (
     ('text/x-sass', 'sass {infile} {outfile}'),
     ('text/x-scss', 'sass --scss {infile} {outfile}'),
 )
+
+NAVERMAPKEY = "278702a17119cfb68d1a6ae88cc1ea9f"

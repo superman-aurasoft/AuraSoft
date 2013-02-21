@@ -32,7 +32,7 @@
     float: left;
     display: inline;
     text-rendering: optimizelegibility;
-    text-shadow: rgba(0, 0, 0, 0.6) 0px 0px 10px, rgba(0, 0, 0, 0.6) 0px -1px 1px;
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px, rgba(0, 0, 0, 0.4) 0px -1px 1px;
     padding : 50px 10px 10px 10px;
 }
 
