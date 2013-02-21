@@ -13,6 +13,8 @@ def prepare_deploy():
 
 def deploy():
 
+    prepare_deploy()
+
     with cd('/var/git/AuraSoft'):
         run("git pull");
         

@@ -66,27 +66,33 @@
   </div>
 </div>
 
-<div class="container contents">
+<div class="container" id="values">
   <div class="row">
     <div class="span4">
 
-      <img src="{{STATIC_URL}}img/prince.png" />
+      <img src="{{STATIC_URL}}img/main_dream.png" alt="dream"/>
 
       <h2> 꿈  </h2>
       <p> 우리의 꿈은 모두가 행복한 세상을 만드는 것 입니다.  </p>
     </div>
 
     <div class="span4">
-      <h2> 열정 </h2>
-      <p> 우리가 원하는 바는 저절로 얻어 지지 않습니다. 간절히
-      원하고 열정을 쏟을 때 비로소 얻울 수 있습니다.  </p>
+      
+      <img src="{{STATIC_URL}}img/main_fun.png" alt="fun"/>
+      <h2> 재미 </h2>
+      <p> 언제나 재미있게 일 할 수 있어야 합니다. 재미는 우리가
+      추구하는 가장 첫 번째 가치 입니다. </p>
+
     </div>
 
 
     <div class="span4">
-      <h2> 재미 </h2>
-      <p> 언제나 재미있게 일 할 수 있어야 합니다. 재미는 우리가
-      추구하는 가장 첫 번째 가치 입니다. </p>
+
+      <img src="{{STATIC_URL}}img/main_passion.png" alt="passion"/>
+      <h2> 열정 </h2>
+      <p> 우리가 원하는 바는 저절로 얻어 지지 않습니다. 간절히
+      원하고 열정을 쏟을 때 비로소 얻울 수 있습니다.  </p>
+      
     </div>
 
   </div>

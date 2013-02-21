@@ -72,3 +72,17 @@
 .carousel-inner {
     height: 394px;
 }
+
+#values {
+    font-family: NanumGothicWeb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#values img {
+    margin: 10px 105px;
+}
+
+#values h2 {
+    text-align: center;
+}
