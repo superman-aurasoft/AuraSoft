@@ -2,6 +2,7 @@ from fabric.api import *
 from fabric.contrib.console import confirm
 
 env.hosts = ['cha@49.247.226.10']
+env.warn_only = True
 
 def push():
     local("git push")

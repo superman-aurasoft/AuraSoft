@@ -3,7 +3,8 @@
     text-align: center;
     background-color: #f5f5f5;
     border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;    
+    border-bottom: 1px solid #ddd;
+    height: 26px;
 }
 
 #myCarousel {
@@ -66,4 +67,8 @@
 .contents {
     height: 300px;
     padding : 30px 10px 10px 10px;
+}
+
+.carousel-inner {
+    height: 394px;
 }
