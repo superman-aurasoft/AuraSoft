@@ -5,8 +5,7 @@
 {% block additional_script %}
 
 <script type="text/javascript"
-        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0
-             &key={{ NAVERMAPKEY }}"></script>
+        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key={{ NAVERMAPKEY }}"></script>
 <script type="text/javascript">
 jQuery( function() {
   var oPoint = new nhn.api.map.LatLng(37.5069481, 127.0529865);
