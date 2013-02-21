@@ -3,14 +3,14 @@
   font-family: 'NanumGothicWeb';
   font-style: normal;
   font-weight: normal;
-  src: url('http://cdn.socialklass.co.kr/css/font_/NanumGothic.eot');
-  src: local('☺'), url('http://cdn.socialklass.co.kr/css/font_/NanumGothic.woff') format('woff'), url('http://cdn.socialklass.co.kr/css/font_/NanumGothic.ttf') format('truetype');
+  src: url('/static/font/NanumGothic.eot');
+  src: local('☺'), url('/static/font/NanumGothic.woff') format('woff'), url('/static/font/NanumGothic.ttf') format('truetype');
 }
 
 @font-face{
   font-family: 'NanumGothicWeb';
   font-style: normal;
   font-weight: bold;
-  src: url('http://cdn.socialklass.co.kr/css/font_/NanumGothicBold.eot');
-  src: local('☺'), url('http://cdn.socialklass.co.kr/css/font_/NanumGothicBold.woff') format('woff'), url('http://cdn.socialklass.co.kr/css/font_/NanumGothicBold.ttf') format('truetype');
+  src: url('/static/font/NanumGothicBold.eot');
+  src: local('☺'), url('/static/font/NanumGothicBold.woff') format('woff'), url('/static/font/NanumGothicBold.ttf') format('truetype');
 }

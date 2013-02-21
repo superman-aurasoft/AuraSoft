@@ -1,11 +1,10 @@
 #mymap {
     height: 400px;
-    border: solid 2px #CCC;
+    border: solid 1px #CCC;
     margin-bottom: 30px;
 }
 
 #contact {
-    color:#555;
     font-family: NanumGothicWeb;
     padding-top: 20px;
 }
