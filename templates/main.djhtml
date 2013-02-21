@@ -106,7 +106,7 @@
   (function() {
     var e = document.createElement('script'); e.async = true;
     e.src = document.location.protocol +
-      '//connect.facebook.net/en_US/all.js#xfbml=1&appId=249104968445249';
+      '//connect.facebook.net/en_US/all.js#xfbml=1&appId=335983176503024';
     document.getElementById('fb-root').appendChild(e);
   }());
 </script>
