@@ -1,17 +1,26 @@
 {% extends 'base.djhtml' %}
 
-{% block active_menu %} "#menu_contact"{% endblock %}
+{% block active_menu %} "#menu_contact" {% endblock %}
 
 {% block additional_script %}
 
 <script type="text/javascript"
-        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=fcc60ce74de2b8e2581762a106b8b411"></script>
-<script type="text/javascript">
+        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=e552368b7fddc2cb6d06fbab2886fe4e"></script>
 
-jQuery = function () {
+{% endblock %}
+
+{% block contents %}
+
+<div class="container">
+
+  <div id="mymap"></div>
+
+  <script type="text/javascript">
+
+  jQuery( function() {
   var oPoint = new nhn.api.map.LatLng(37.5069481, 127.0529865);
   nhn.api.map.setDefaultPoint('LatLng');
-  oMap = new nhn.api.map.Map('map' ,{
+  oMap = new nhn.api.map.Map(document.getElementById('mymap') ,{
   point : oPoint,
   zoom : 10,
   enableWheelZoom : true,
@@ -23,16 +32,9 @@ jQuery = function () {
   minMaxLevel : [ 1, 14 ],
   size : new nhn.api.map.Size(500, 400)
   });
-};
+  });
 
-</script>
-
-{% endblock %}
-
-{% block contents %}
-
-<div class="container">
-  <div id = "map"></div>
+  </script>
   
 </div>
 
