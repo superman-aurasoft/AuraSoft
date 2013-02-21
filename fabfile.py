@@ -12,11 +12,14 @@ def prepare_deploy():
     push()
 
 def deploy():
-    run("cd /var/git/AuraSoft/; git pull");
+
+    with cd('/var/git/AuraSoft'):
+        run("git pull");
+        
     sudo("apachectl stop")
     sudo("rm -rf /home/aurasoft/www/AuraSoft");
     sudo("cp -R /var/git/AuraSoft/ /home/aurasoft/www/");
-    sudo("mv /home/aurasoft/www/AuraSoft/AuraSoft/settings.deploy.py /home/aurasoft/www/AuraSoft/settings.py");
-    sudo("/home/aurasoft/www/AuraSoft/manage.py collectstatic")
+    sudo("mv /home/aurasoft/www/AuraSoft/AuraSoft/settings.deploy.py /home/aurasoft/www/AuraSoft/AuraSoft/settings.py");
+    sudo("echo \"yes\" | /home/aurasoft/www/AuraSoft/manage.py collectstatic")
     sudo("chown -R apache.apache /home/aurasoft/www/");
     sudo("apachectl start")

@@ -10,11 +10,10 @@
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
   <div class="carousel-inner">
-    <div class="item" id="main_slide">
+    <div class="item active" id="main_slide">
       <div class="container">
 
         <div id="main_slide_area" class="slide_area">
