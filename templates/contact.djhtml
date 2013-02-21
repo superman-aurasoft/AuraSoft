@@ -5,18 +5,9 @@
 {% block additional_script %}
 
 <script type="text/javascript"
-        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=e552368b7fddc2cb6d06fbab2886fe4e"></script>
+        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key=3ee87a7c26db4ad0b52f7662086d206e"></script>
 
-{% endblock %}
-
-{% block contents %}
-
-<div class="container">
-
-  <div id="mymap"></div>
-
-  <script type="text/javascript">
-
+<script type="text/javascript">
   jQuery( function() {
   var oPoint = new nhn.api.map.LatLng(37.5069481, 127.0529865);
   nhn.api.map.setDefaultPoint('LatLng');
@@ -33,9 +24,18 @@
   size : new nhn.api.map.Size(500, 400)
   });
   });
-
-  </script>
+</script>
   
+
+{% endblock %}
+
+{% block contents %}
+
+<div class="container">
+
+  <div id="mymap"></div>
+
+
 </div>
 
 {% endblock %}
