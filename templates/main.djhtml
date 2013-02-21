@@ -16,12 +16,13 @@
     <div class="item active" id="main_slide">
       <div class="container">
 
+        <img src="{{STATIC_URL}}img/logo_big.png" alt="big logo"/>
+        
         <div id="main_slide_area" class="slide_area">
           <h1> WE ARE AURASOFT </h1>
           <h2> The most creative team in the world </h2>
         </div>
 
-        <img src="{{STATIC_URL}}img/logo_big.png" alt="big logo"/>
 
         <div class="cb">
         </div>
@@ -34,6 +35,8 @@
     <div class="item" id="spirit_slide">
       <div class="container">
 
+        <img src="{{STATIC_URL}}img/spiritbingo_tmp_small.png" alt="big logo"/>
+        
         <div id="spirit_slide_area" class="slide_area">
           <h1> SpiritBingo </h1>
           <h2> 정령들의 가호를! </h2>
@@ -44,7 +47,6 @@
           
         </div>
 
-        <img src="{{STATIC_URL}}img/spiritbingo_tmp_small.png" alt="big logo"/>
         <div class="cb">
         </div>
 
