@@ -1,0 +1,60 @@
+{% extends 'base.djhtml' %}
+
+{% block active_menu %} "#menu_product" {% endblock %}
+
+{% block additional_script %}
+
+
+</script>
+
+{% endblock %}
+
+{% block contents %}
+
+<div class="container" id="product">
+
+  <h1> Spirit Bingo </h1>
+
+  <div id="feature1" class="feature">
+    <img src="{{ STATIC_URL }}/img/spirit_1.png" />
+    <h2> 박진감 넘치는 정령전투! </h2>
+    <p> 9가지의 속성을 지닌 정령석으로 박진감 넘치는 전투를 펼쳐보세요!
+    9가지의 자연 속성과 물, 불, 대지, 바람의 4대 원소 속성의 정령석을 배치하여
+    적들에게 다양한 공격을 할 수 있습니다.
+    더 좋은 조합의 배열을 찾아보세요. 더 강력한 공격력을 느낄 수 있습니다.
+</p>
+    <div class="cb"> </div>
+  </div>
+
+  <hr class="feature_divider"/>
+  
+  <div id="feature2" class="feature">
+    <img src="{{ STATIC_URL }}/img/spirit_2.png" />
+    <h2> 스킬이란 이런 것이다 </h2>
+    <p> 캐릭터들은 6개의 직업을 가질 수 있으며 각각의 직업에 따라 다양한
+    스킬을 사용할 수 있습니다.
+
+    세븐월드 곳곳에 퍼져있는 정령석을 모아 새로운 스킬을 익혀나가세요.
+    훨씬 더 강력하고 효과적인 스킬들을 배워나가다 보면 당신은 어느새
+    세븐월드의 가장 강력한 수호자가 될 수 있을 겁니다.
+    </p>
+    <div class="cb"> </div>
+  </div>
+  
+  <hr class="feature_divider"/>
+  
+  <div id="feature3" class="feature">
+    <img src="{{ STATIC_URL }}/img/spirit_3.png" />
+    <p> </p>
+    <h2> 100여 종의 다양한 아이템 </h2>
+    <p> ‘스피릿 빙고’의 세븐월드에는 100여종의 다양한 아이템이 존재합니다.
+    더 좋은 아이템을 습득하여 착용해 보세요.
+    능력만이 달라지는 것이 아닙니다. 더 좋은 아이템을 착용하면 자신의
+    캐릭터의 외모도 멋져지니 페이스북과 트위터를 통해 친구들에게도
+    자랑할 수 있습니다.
+    </p>
+    <div class="cb"> </div>
+  </div>
+</div>
+
+{% endblock %}

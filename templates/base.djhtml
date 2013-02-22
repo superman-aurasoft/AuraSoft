@@ -23,6 +23,8 @@
     type="text/css" charset="utf-8"/>
     <link rel="stylesheet" href="{{STATIC_URL}}css/contact.css"
     type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/product.css"
+    type="text/css" charset="utf-8"/>
 
     {% endcompress %}
     

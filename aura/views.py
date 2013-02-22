@@ -7,3 +7,5 @@ def main(request):
 def contact(request):
     return render(request, 'contact.djhtml', { 'NAVERMAPKEY': settings.NAVERMAPKEY })
 
+def product(request):
+    return render(request, 'product.djhtml')

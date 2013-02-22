@@ -1,0 +1,25 @@
+.feature {
+    padding: 50px 10px;
+    font-family: NanumGothicWeb;
+}
+
+.feature h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#feature1 > img, #feature3 > img  {
+    float: right;
+}
+
+#feature2 > img {
+    float: left;
+}
+
+.feature_divider {
+
+}
+
+.feature > p {
+
+}
