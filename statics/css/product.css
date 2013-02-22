@@ -8,6 +8,11 @@
     font-size: 24px;
 }
 
+.feature p {
+
+    font-size: 16px;
+}
+
 #feature1 > img, #feature3 > img  {
     float: right;
 }
