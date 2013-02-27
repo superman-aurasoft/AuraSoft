@@ -10,8 +10,13 @@
 }
 
 .feature p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 180%;
+}
+
+.feature_desc > p {
+    border-left: solid 2px #6d6e70;
+    padding-left: 10px;
 }
 
 #product_main {
@@ -48,13 +53,15 @@
 }
 
 #feature2 {
-    background-color: #E6E7E8;
+    background-color: #FFF;
 }
 
 .feature h2 {
     background-color: #6d6e70;
     color: white;
     display: inline-block;
+    margin-bottom: 25px;
+    
 }
 
 #feature1 .feature_desc {
@@ -64,6 +71,8 @@
 
 .feature_desc {
     display:inline;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .feature {
@@ -119,3 +128,22 @@
 #countdown_dashboard {
     display:inline-block
 }
+
+
+#feature3  img {
+    padding-top: 33px;
+}
+
+#feature1 h2 > span {
+    color: #43c3d9;
+}
+
+#feature2 h2 > span {
+    color: rgb(255,144,0);
+}
+
+#feature3 h2 > span {
+    color: rgb(0,238,186);
+}
+
+

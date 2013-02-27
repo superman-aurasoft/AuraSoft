@@ -9,6 +9,7 @@
 
 #myCarousel {
     margin: 0px;
+    background-color: #EDEDED;
 }
 
 #myCarousel .item {
@@ -21,18 +22,17 @@
     margin-bottom: 40px;
     line-height: 72px;
     margin-top: 30px;
+    color: #333;    
 }
 
 .slide_area h2 {
     font-size:40px;
-    color: #DDD;
+    color: #444;
     margin-left: 10px;
 }
 
 .slide_area {
     display: inline;
-    text-rendering: optimizelegibility;
-    text-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px, rgba(0, 0, 0, 0.4) 0px -1px 1px;
     padding : 50px 10px 10px 10px;
 }
 
@@ -54,6 +54,11 @@
     float: right;
     display: inline;
     padding: 0px 30px;
+}
+
+#main_slide_area {
+    padding-top: 20px;
+    display:inline-block;
 }
 
 #main_slide_area h2 {
@@ -80,15 +85,23 @@
 }
 
 #values img {
-    margin: 10px 105px;
+    margin: 10px 103px;
+    margin-bottom: 0px;
+    
 }
 
 #values h2 {
     text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    letter-spacing: 7px;
 }
 
 #values p {
-    padding: 10px 40px;
-    line-height: 180%;
-    font-size: 16px;
+    
+    padding: 0px 70px;
+    line-height: 160%;
+    font-size: 14px;
+    letter-spacing: -1px;
 }
