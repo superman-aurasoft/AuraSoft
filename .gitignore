@@ -5,3 +5,4 @@ local_settings.py
 .DS_Store
 upload/CACHE
 *.swp
+statics/coffee/*.js
