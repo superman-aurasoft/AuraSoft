@@ -5,40 +5,7 @@
 {% block additional_script %}
 
 <script type="text/javascript"
-        src="http://openapi.map.naver.com/openapi/naverMap.naver?ver=2.0&key={{ NAVERMAPKEY }}"></script>
-<script type="text/javascript">
-jQuery( function() {
-  var oPoint = new nhn.api.map.LatLng(37.5069481, 127.0529865);
-  nhn.api.map.setDefaultPoint('LatLng');
-  oMap = new nhn.api.map.Map(document.getElementById('mymap') ,{
-  point : oPoint,
-  zoom : 10,
-  enableWheelZoom : true,
-  enableDragPan : true,
-  enableDblClickZoom : false,
-  mapMode : 0,
-  activateTrafficMap : false,
-  activateBicycleMap : false,
-  minMaxLevel : [ 1, 14 ],
-  size : new nhn.api.map.Size($('#mymap').width, 400)
-  });
-
-  var mapZoom = new nhn.api.map.ZoomControl(); // - 줌 컨트롤 선언
-  mapZoom.setPosition({left:10, top:10}); // - 줌 컨트롤 위치 지정.
-  oMap.addControl(mapZoom);
-
-  var oSize = new nhn.api.map.Size(28, 37);
-  var oOffset = new nhn.api.map.Size(14, 37);
-  var oIcon = new nhn.api.map.Icon('http://static.naver.com/maps2/icons/pin_spot2.png', oSize, oOffset);
-
-  var oMarker = new nhn.api.map.Marker(oIcon, { title : '아우라소프트'});  //마커 생성
-  oMarker.setPoint(oPoint);
-  oMap.addOverlay(oMarker);
-  var oLabel = new nhn.api.map.MarkerLabel(); // - 마커 라벨 선언.
-  oMap.addOverlay(oLabel); // - 마커 라벨 지도에 추가. 기본은 라벨이 보이지 않는 상태로 추가됨.
-  oLabel.setVisible(true, oMarker); // 마커 라벨 보이기
-});
-
+        src="https://maps.googleapis.com/maps/api/js?key={{ GOOGLEMAPKEY }}&sensor=false">
 </script>
 
 {% endblock %}
@@ -48,7 +15,7 @@ jQuery( function() {
 <div class="container" id="contact">
   <h1> Contact Us </h1>
   <div class="row">
-    <div class="span12"> <div id="mymap"> </div> </div>
+    <div class="span12"> <div id="mapcanvas"> </div> </div>
   </div>
 
   <address> <i class="icon-map-marker"></i> 서울특별시 강남구 삼성2동

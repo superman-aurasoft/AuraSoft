@@ -170,4 +170,5 @@ COMPRESS_PRECOMPILERS = (
     ('text/x-scss', 'sass --scss {infile} {outfile}'),
 )
 
-NAVERMAPKEY = "278702a17119cfb68d1a6ae88cc1ea9f"
+NAVERMAPKEY  = "278702a17119cfb68d1a6ae88cc1ea9f"
+GOOGLEMAPKEY ="AIzaSyCJDipLiWof08yx46NaHJ1lyu9MRaVPv7E"

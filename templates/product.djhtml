@@ -4,9 +4,6 @@
 
 {% block additional_script %}
 
-
-</script>
-
 {% endblock %}
 
 {% block contents %}
@@ -22,7 +19,7 @@
     9가지의 자연 속성과 물, 불, 대지, 바람의 4대 원소 속성의 정령석을 배치하여
     적들에게 다양한 공격을 할 수 있습니다.
     더 좋은 조합의 배열을 찾아보세요. 더 강력한 공격력을 느낄 수 있습니다.
-</p>
+    </p>
     <div class="cb"> </div>
   </div>
 
