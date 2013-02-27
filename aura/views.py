@@ -10,3 +10,7 @@ def contact(request):
 
 def product(request):
     return render(request, 'product.djhtml')
+
+def members(request):
+    return render(request, 'members.djhtml')
+

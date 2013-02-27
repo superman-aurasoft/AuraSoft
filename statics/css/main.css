@@ -86,3 +86,9 @@
 #values h2 {
     text-align: center;
 }
+
+#values p {
+    padding: 10px 40px;
+    line-height: 180%;
+    font-size: 16px;
+}

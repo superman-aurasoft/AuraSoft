@@ -4,4 +4,5 @@ urlpatterns = patterns('',
     url(r'^$', 'aura.views.main'),
     url(r'^contact/$', 'aura.views.contact'),
     url(r'^product/$', 'aura.views.product'),
+    url(r'^members/$', 'aura.views.members'),
 )

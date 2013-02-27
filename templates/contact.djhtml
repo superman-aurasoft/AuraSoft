@@ -24,7 +24,6 @@
   <address> <i class="icon-envelope"> </i>
   <a href="mailto:aura@aurasoft.co.kr"> aura@aurasoft.com </a>
   </address>
-  
 </div>
 
 {% endblock %}
