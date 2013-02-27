@@ -10,7 +10,48 @@
 
 <div id="product_main">
   <div class="container">
-    <h1> Spirit Bingo </h1>
+    <div class="row">
+
+      <div id="spiritbingo" class="offset1 span5"> 
+        <h1> SPIRIT <span> BINGO </span> </h1>
+        <h2> comming soon... </h2>
+        <p>
+        </p>
+      </div>
+
+      <div class="span6" id="countdown_dashboard">
+        <div class="dash weeks_dash">
+	  <span class="dash_title">weeks</span>
+	  <div class="digit">0</div>
+	  <div class="digit">0</div>
+        </div>
+
+        <div class="dash days_dash">
+	  <span class="dash_title">days</span>
+	  <div class="digit">0</div>
+	  <div class="digit">0</div>
+        </div>
+
+        <div class="dash hours_dash">
+	  <span class="dash_title">hours</span>
+	  <div class="digit">0</div>
+	  <div class="digit">0</div>
+        </div>
+
+        <div class="dash minutes_dash">
+	  <span class="dash_title">minutes</span>
+	  <div class="digit">0</div>
+	  <div class="digit">0</div>
+        </div>
+
+        <div class="dash seconds_dash">
+	  <span class="dash_title">seconds</span>
+	  <div class="digit">0</div>
+	  <div class="digit">0</div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
 

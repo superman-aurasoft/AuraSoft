@@ -1,0 +1,11 @@
+{% extends 'base.djhtml' %}
+
+{% block active_menu %} "#menu_members" {% endblock %}
+
+{% block contents %}
+
+<div class="container" id="members">
+  
+</div>
+
+{% endblock %}
