@@ -25,7 +25,9 @@
     type="text/css" charset="utf-8"/>
     <link rel="stylesheet" href="{{STATIC_URL}}css/product.css"
     type="text/css" charset="utf-8"/>
-
+    <link rel="stylesheet" href="{{STATIC_URL}}css/members.css"
+    type="text/css" charset="utf-8"/>
+    
     {% endcompress %}
     
     {% compress js %}

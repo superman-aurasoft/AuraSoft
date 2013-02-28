@@ -4,8 +4,180 @@
 
 {% block contents %}
 
+<div id="members_main">
+
+</div>
+
 <div class="container" id="members">
+
+  <div class="row memrow">
+    
+    <div class="member">
+
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/hmj.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name"> Manjun Han </span>
+        <span class="position"> CEO / Co-founder </span>
+      </div>
+      
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/nubbury.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name"> Changhan Lee </span>
+        <span class="position"> CEO </span>
+      </div>
+    </div>
+
+    <div class="member">
+
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/anonymous1.png"/>
+      </div>
+      
+      <div class="member_detail span2">
+        <span class="name"> Seoungmin Ahn </span>
+        <span class="position"> Ugly VP </span>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="row memrow">
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/sdh.png"/>
+      </div>
+      
+      <div class="member_detail span2">
+        <span class="name"> DongHyup Song </span>
+        <span class="position"> VP, Developer </span>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/cmh.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name"> Myunghun Cha </span>
+        <span class="position"> CTO, Developer </span>
+      </div>
+    </div>
   
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/kkn.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name"> Kyoungnam Kwak </span>
+        <span class="position"> VP, Development </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row memrow">
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/lsj.png"/>
+      </div>
+      <div class="member_detail span2">
+        <span class="name"> Seungjoo Lee </span>
+        <span class="position"> Ugly VP, Development </span>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/ktk.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Taegyu Kim </span>
+        <span class="position"> Developer </span>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/kdw.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Donguk Kim </span>
+        <span class="position"> Developer </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row memrow">
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/jsy.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Sockyoung Jang </span>
+        <span class="position"> Lead Game Designer </span>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/lsk.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Soogil Lee </span>
+        <span class="position"> Project Manager </span>
+      </div>
+    </div>
+
+    <div class="member">
+
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/anonymous2.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Jitae Kim </span>
+        <span class="position"> Ugly Technical Manager </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="row memrow">
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/anonymous3.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Sihang Woo </span>
+        <span class="position"> Ugly Designer </span>
+      </div>
+    </div>
+
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}/img/profile/kyk.png"/>
+      </div>
+
+      <div class="member_detail span2">
+        <span class="name">  Yoongyu Kim </span>
+        <span class="position"> Technical Manager </span>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% endblock %}

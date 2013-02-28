@@ -66,15 +66,10 @@
     
 }
 
-#feature1 .feature_desc {
-    padding 
-
-}
-
 .feature_desc {
     display:inline;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .feature {

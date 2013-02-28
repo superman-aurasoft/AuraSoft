@@ -1,0 +1,26 @@
+#members {
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+
+.name {
+    display: block;
+    color: #444;
+    font-weight: bold;
+}
+
+.position {
+    display: block;
+    color: #AAA;
+}
+
+.memrow {
+    margin-bottom: 40px;
+}
+
+#members_main {
+    height: 200px;
+    padding: 50px 20px;
+    background-color: #000;
+}

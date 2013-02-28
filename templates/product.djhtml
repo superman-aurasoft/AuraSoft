@@ -72,7 +72,7 @@
     <div class="container">
       <div class="row">
         <img class="offset1 span3" src="{{ STATIC_URL }}/img/project02.png" />
-        <div class="feature_desc span7">
+        <div class="feature_desc offset1 span7">
           <h2> <span> 스킬 </span> 이란 이런 것이다 </h2>
           <p> 캐릭터들은 6개의 직업을 가질 수 있으며 각각의 직업에 따라 다양한
           스킬을 사용할 수 있습니다.
