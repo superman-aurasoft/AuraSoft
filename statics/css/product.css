@@ -131,11 +131,6 @@
     display:inline-block
 }
 
-
-#feature3  img {
-    padding-top: 33px;
-}
-
 #feature1 h2 > span {
     color: #43c3d9;
 }
@@ -147,5 +142,4 @@
 #feature3 h2 > span {
     color: rgb(0,238,186);
 }
-
 
