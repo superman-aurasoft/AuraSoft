@@ -21,11 +21,13 @@
 
 #product_main {
     height: 200px;
-    background-color: #6d6e70;
     padding: 50px 20px;
-
     -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);    
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+    background-image: url(../img/project00.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 #product_main h1 {
