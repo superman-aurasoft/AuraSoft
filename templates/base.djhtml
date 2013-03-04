@@ -72,7 +72,7 @@
           <div class="row">
             <ul id="main_menu">
               <li id="logo" class="span2">
-                <a href="/"> <img src="{{STATIC_URL}}img/logo_white.png" alt="logo"/> </a>
+                <a href="/"> <img src="{{STATIC_URL}}img/logo_white2.png" alt="logo"/> </a>
               </li>
               
               <li class="menu inactive span2" id="menu_home">
