@@ -142,6 +142,14 @@
       <div class="member_detail span2">
         <span class="name">  Taegyu Kim </span>
         <span class="position"> Developer </span>
+
+
+        <ul class="career">
+          <li> 본엔젤스 MAD캠프 2위 </li>
+          <li> 삼성소프트웨어챌린지캠프 최우수상 </li>
+          <li> 포항공과대학교 학사과정 </li>
+        </ul>
+        
       </div>
     </div>
 
