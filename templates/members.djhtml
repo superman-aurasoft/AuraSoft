@@ -23,8 +23,14 @@
       <div class="member_detail span2">
         <span class="name"> Manjun Han </span>
         <span class="position"> CEO / Co-founder </span>
+
+        <ul class="career">
+          <li> (현) AURAsoft 대표이사 </li>
+          <li> (전) IMCgames 부장 근무 </li>
+          <li> (전) NCsoft 근무 </li>
+          <li> (전) CinematicKorea 근무 </li>
+        </ul>
       </div>
-      
     </div>
 
     <div class="member">
@@ -35,6 +41,7 @@
       <div class="member_detail span2">
         <span class="name"> Changhan Lee </span>
         <span class="position"> CEO / Co-founder </span>
+
       </div>
     </div>
     
@@ -146,6 +153,11 @@
       <div class="member_detail span2">
         <span class="name">  Donguk Kim </span>
         <span class="position"> Developer </span>
+
+        <ul class="career">
+          <li> (전) 전 닛시소프트 근무 </li>
+          <li> 안산 6년 거주 </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -210,9 +222,22 @@
       <div class="member_detail span2">
         <span class="name">  Yoongyu Kim </span>
         <span class="position"> Technical Manager </span>
+
+        <ul class="career">
+          <li> (전) 알피지팩토리 근무
+</li>
+          <li> (전) 네오위즈 INS 근무
+</li>
+        </ul>
+
       </div>
     </div>
   </div>
 </div>
+
+        <ul class="career">
+          <li> </li>
+        </ul>
+
 
 {% endblock %}
