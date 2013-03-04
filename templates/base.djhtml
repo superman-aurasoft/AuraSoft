@@ -45,9 +45,14 @@
     <script type="text/coffeescript"
     src="{{STATIC_URL}}coffee/main.coffee" charset="utf-8"> </script>
     <script type="text/coffeescript"
-    src="{{STATIC_URL}}coffee/contact.coffee" charset="utf-8"> </script>
+    src="{{STATIC_URL}}coffee/contact.coffee"
+    charset="utf-8"> </script>
     <script type="text/coffeescript"
-    src="{{STATIC_URL}}coffee/product.coffee" charset="utf-8"> </script>
+    src="{{STATIC_URL}}coffee/product.coffee"
+    charset="utf-8"> </script>
+    <script type="text/coffeescript"
+    src="{{STATIC_URL}}coffee/members.coffee"
+    charset="utf-8"> </script>
 
     {% endcompress %}
 

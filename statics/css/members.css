@@ -16,11 +16,26 @@
 }
 
 .memrow {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 #members_main {
     height: 200px;
     padding: 50px 20px;
     background-color: #000;
+}
+
+#members_main h2{
+    margin-top:140px;
+    color: #DDD;
+}
+
+.career {
+    padding-top: 20px;
+    margin-left: 0px;
+}
+
+.member_detail ul li {
+    text-decoration: none;
+    list-style-type: none;    
 }
