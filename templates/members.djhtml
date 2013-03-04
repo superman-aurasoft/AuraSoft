@@ -6,7 +6,7 @@
 
 <div id="members_main">
   <div class="container">
-    <h2> You know what? We are awesome... </h2>
+    <h2> We are awesome... </h2>
   </div>
 </div>
 
@@ -37,7 +37,25 @@
         <span class="position"> CEO / Co-founder </span>
       </div>
     </div>
+    
+    <div class="member">
+      <div class="span2">
+        <img src="{{STATIC_URL}}img/profile/sdh.png"/>
+      </div>
+      
+      <div class="member_detail span2">
+        <span class="name"> DongHyup Song </span>
+        <span class="position"> VP / Developer </span>
 
+        <ul class="career">
+        </ul>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="row memrow">
     <div class="member">
 
       <div class="span2">
@@ -50,25 +68,6 @@
       </div>
     </div>
     
-  </div>
-
-  <div class="row memrow">
-    <div class="member">
-      <div class="span2">
-        <img src="{{STATIC_URL}}img/profile/sdh.png"/>
-      </div>
-      
-      <div class="member_detail span2">
-        <span class="name"> DongHyup Song </span>
-        <span class="position"> VP / Developer </span>
-
-        <ul class="career">
-          <li> A </li>
-        </ul>
-        
-      </div>
-    </div>
-
     <div class="member">
       <div class="span2">
         <img src="{{STATIC_URL}}img/profile/cmh.png"/>
@@ -77,6 +76,13 @@
       <div class="member_detail span2">
         <span class="name"> Myunghun Cha </span>
         <span class="position"> CTO / Developer </span>
+
+        <ul class="career">
+          <li> DEFCON CTF 세계 해킹대회 3위 </li>
+          <li> CODEGATE 해킹방어대회 3위 </li>
+          <li> (전) 비테이브랩, 개발 이사 </li>
+          <li> 포항공과대학교 학사 과정 </li>
+        </ul>
       </div>
     </div>
   
@@ -87,7 +93,7 @@
 
       <div class="member_detail span2">
         <span class="name"> Kyoungnam Kwak </span>
-        <span class="position"> VP / Development </span>
+        <span class="position"> VP / Developer </span>
       </div>
     </div>
   </div>

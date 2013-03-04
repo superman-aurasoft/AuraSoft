@@ -33,9 +33,24 @@
 .career {
     padding-top: 20px;
     margin-left: 0px;
+    font-family: NanumGothicWeb;
+    font-size: 12px;
+    overflow: visible;
 }
 
 .member_detail ul li {
     text-decoration: none;
     list-style-type: none;    
 }
+
+.member img {  
+  -webkit-transition: -webkit-filter 1s;
+  -webkit-transition: opacity 1s;
+  position: relative;
+  width: 100%;
+}
+
+.member img:hover {
+  -webkit-filter: blur(2px);  
+  opacity: 0.3;
+}  

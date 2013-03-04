@@ -1,3 +1,3 @@
 jQuery ->
-    $('member img').rollover ->
-        alert "hasdf"
+    $('.member img').mouseover ->
+        this
