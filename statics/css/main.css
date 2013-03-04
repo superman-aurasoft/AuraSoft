@@ -85,9 +85,10 @@
 }
 
 #values img {
-    margin: 10px 103px;
+    width: 160px;
+    margin: 10px auto;
     margin-bottom: 0px;
-    
+    display: block;
 }
 
 #values h2 {
@@ -96,11 +97,13 @@
     margin-top: -5px;
     margin-bottom: 0px;
     letter-spacing: 7px;
+    margin-left: 7px;
 }
 
 #values p {
-    
-    padding: 0px 70px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    width: 70%;
     line-height: 160%;
     font-size: 14px;
     letter-spacing: -1px;
