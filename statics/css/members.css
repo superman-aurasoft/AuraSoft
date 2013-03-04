@@ -54,3 +54,9 @@
   -webkit-filter: blur(2px);  
   opacity: 0.3;
 }  
+
+.member li {
+    border-bottom: solid 1px #CCC;
+    margin: 4px 0px;
+    decoration: 
+}
